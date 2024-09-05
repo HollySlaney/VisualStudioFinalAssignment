@@ -1,0 +1,18 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Visual Studio Final Assignment";
+}
+
+<div class="text-left">
+    <!-- Title -->
+    <h1 class="display-4">Welcome to My Final Assignment for Visual Studio!</h1>
+
+    <!-- YouTube Video -->
+    <p><h3>Here is a YouTube video of one of my favourite songs.</h3></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/IzPQ_jA00bk?si=vhIqHG2upPTMp7Fe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <!--Image with JavaScript Animation-->
+    <img src="~/images/books-8405721_1280.jpg" id="img" alt="Old Books" width="300" onmouseover="increase()" onmouseout="decrease()" />
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
